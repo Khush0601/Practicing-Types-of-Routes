@@ -1,0 +1,31 @@
+.about-cont{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content{
+    width: 80%;
+    height: 80%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.about-left{
+    width: 70%;
+    height: 100%;
+    border-right: 3px solid black;
+}
+.about-routes{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selected{
+    color: green!important;
+}
